@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CommonDataFormAnnotator2
+Bundle-SymbolicName: commondataform.annotator2;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: commondataform.Activator
+Import-Package: org.eclipse.core.runtime;version="3.4.0",
+ org.osgi.framework;version="1.3.0"
+Export-Package: commondataform.annotator,
+ resources
+Require-Bundle: org.eclipse.jdt.apt.core
